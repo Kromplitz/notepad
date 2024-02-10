@@ -22,7 +22,7 @@ interface EmployeeDao{
     @Delete
     fun delete(employee: Employee)
     @Query("SELECT * FROM employee")
-    fun getALL():LiveData<List<Employee>>
+    fun getAll():LiveData<List<Employee>>
 }
 @Database(entities = [Employee::class], version = 1)
 abstract class EmployeeDatabase:RoomDatabase(){
