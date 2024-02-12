@@ -1,7 +1,5 @@
 package com.example.notepad
 
-import com.example.notepad.db.Employee
-import com.example.notepad.db.EmployeeDatabase
 import java.util.concurrent.Executors
 
 class EmployeeRepository(private val database: EmployeeDatabase) {

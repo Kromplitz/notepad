@@ -19,7 +19,7 @@
     android:background="?attr/selectableItemBackground">
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/subject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Subject"
@@ -29,13 +29,13 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/position"
+        android:id="@+id/todo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What to do"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/name"
+        app:layout_constraintStart_toEndOf="@+id/subject"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 

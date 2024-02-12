@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
-import com.example.notepad.db.Employee
 
 class EmployeeViewModel: ViewModel() {
     private val repo = MyApplication.getApp().repo

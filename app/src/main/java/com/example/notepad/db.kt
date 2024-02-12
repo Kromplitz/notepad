@@ -1,4 +1,4 @@
-package com.example.notepad.db
+package com.example.notepad
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -26,7 +26,7 @@ interface EmployeeDao{
 }
 @Database(entities = [Employee::class], version = 1)
 abstract class EmployeeDatabase:RoomDatabase(){
-    abstract fun employeeDao():EmployeeDao
+    abstract fun employeeDao(): EmployeeDao
 }
 
 

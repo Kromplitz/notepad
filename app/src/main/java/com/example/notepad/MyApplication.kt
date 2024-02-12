@@ -2,7 +2,6 @@ package com.example.notepad
 
 import android.app.Application
 import androidx.room.Room
-import com.example.notepad.db.EmployeeDatabase
 
 class MyApplication : Application() {
     lateinit var repo:EmployeeRepository
